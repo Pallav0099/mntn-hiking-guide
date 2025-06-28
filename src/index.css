@@ -1,12 +1,27 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: #0B1D26;
+  --color-primary: #FFFFFF;
+  --color-secondary: #FBBF24;
+  --color-primary-dark: #E5E7EB;
+  --color-secondary-light: #FCD34D;
+  --color-secondary-dark: #F59E0B;
+}
+
 @layer base {
   html {
     font-family: "Montserrat", sans-serif;
+    color: white;
+  }
+  
+  body {
+    color: white;
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
+    color: white;
   }
 }
 
