@@ -9,7 +9,7 @@ const NavItems = [
 
 const Navbar = () => {
     return (
-        <nav className="sticky top-0 z-50 bg-transparent backdrop-blur-[3px] px-4 py-3 md:px-10 md:py-5">
+        <nav className="sticky top-0 z-50 bg-transparent backdrop-blur-[3px] px-4 py-3 md:px-12 md:py-8">
             <div className="w-full flex items-center justify-between">
                 <a href="/">
                     <h2 className="text-3xl">MNTN</h2>

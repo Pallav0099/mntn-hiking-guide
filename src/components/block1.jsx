@@ -4,17 +4,19 @@ import { MoveRight } from "lucide-react";
 const Block1 = () => {
     return (
         <>
-            <section id="block1" className="bg-background min-h-screen z-10 overflow-visible">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[80vw] mx-auto">
-                    <div className="order-1 flex flex-col gap-4 justify-center">
-
+            <section id="block1" className="bg-gradient-to-b from-transparent to-background min-h-screen z-10 overflow-visible">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-20 w-screen mx-48 pt-100">
+                    <div className="order-1 flex flex-col gap-4 justify-center z-10">
+                        <div>
+                            <p className="top-0 left-0 text-9xl font-extrabold z-5 text-white/10">01</p>
+                        </div>
                         <div className="flex items-center gap-2 pt-6">
                             <span className="w-10 h-[2px] bg-secondary"></span>
                             <span className="uppercase text-secondary text-sm font-semibold tracking-widest">GET STARTED</span>
                         </div>
 
                         <div>
-                            <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-left">What level of hiker are you?</h1>
+                            <h1 className="text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-left">What level of hiker are you?</h1>
                         </div>
 
                         <p className="text-lg">
@@ -26,9 +28,10 @@ const Block1 = () => {
                                 <MoveRight className="text-secondary" />
                             </a>
                         </div>
+
                     </div>
-                    <div className="order-2 flex flex-col gap-4">
-                        <img src={Block1Img} alt="Block1" className="w-full h-full object-cover" />
+                    <div className="order-2">
+                        <img src={Block1Img} width={566} height={720} alt="Block1" className="object-cover" />
                     </div>
                 </div>
             </section>
