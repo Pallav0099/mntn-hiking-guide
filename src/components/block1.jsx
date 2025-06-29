@@ -4,9 +4,9 @@ import { MoveRight } from "lucide-react";
 const Block1 = () => {
     return (
         <>
-            <section id="block1" className="bg-red-500 min-h-screen z-10 py-20 overflow-visible">
+            <section id="block1" className="bg-background min-h-screen z-10 overflow-visible">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[80vw] mx-auto">
-                    <div className="order-2 flex flex-col gap-4 justify-center">
+                    <div className="order-1 flex flex-col gap-4 justify-center">
 
                         <div className="flex items-center gap-2 pt-6">
                             <span className="w-10 h-[2px] bg-secondary"></span>
@@ -27,7 +27,7 @@ const Block1 = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="order-1 flex flex-col gap-4">
+                    <div className="order-2 flex flex-col gap-4">
                         <img src={Block1Img} alt="Block1" className="w-full h-full object-cover" />
                     </div>
                 </div>

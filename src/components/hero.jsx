@@ -1,15 +1,16 @@
 import heroimg from "../assets/hero.png";
-import { MoveDown } from "lucide-react";
+import { MoveDown, MoveRight, } from "lucide-react";
+import Block1Img from "../assets/block1.png"
 
 const Hero = () => {
     return (
-        <section className="top-0 w-full h-screen overflow-hidden">
-            <img
+        <section className="w-full h-screen overflow-hidden">
+            {/* <img
                 src={heroimg}
                 alt="Hero"
-                className="absolute inset-0 w-full h-auto object-contain"
-            />
-            <div className="relative z-10 flex items-center justify-center pt-40">
+                className="absolute top-0 w-auto h-[80vh] object-cover md:w-full md:h-auto md:object-contain"
+            /> */}
+            <div className="relative z-10 flex items-center justify-center pt-24 md:pt-48">
                 <div className="grid grid-row h-max">
                     <div className="flex items-center gap-2 order-1">
                         <span className="w-10 h-[2px] bg-secondary"></span>

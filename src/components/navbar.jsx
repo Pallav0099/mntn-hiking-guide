@@ -9,12 +9,12 @@ const NavItems = [
 
 const Navbar = () => {
     return (
-        <nav className="sticky top-0 z-50 bg-transparent backdrop-blur-[3px] px-10 pt-5">
-            <div className="w-full flex items-center justify-between px-4 py-3">
+        <nav className="sticky top-0 z-50 bg-transparent backdrop-blur-[3px] px-4 py-3 md:px-10 md:py-5">
+            <div className="w-full flex items-center justify-between">
                 <a href="/">
                     <h2 className="text-3xl">MNTN</h2>
                 </a>
-                <div className="flex items-center space-x-6">
+                <div className="hidden md:flex items-center space-x-6">
                     {NavItems.map((item) => (
                         <a key={item.link} href={item.link}>
                             <p className="text-md font-bold">{item.label}</p>
