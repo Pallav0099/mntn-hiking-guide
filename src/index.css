@@ -16,6 +16,7 @@
   html {
     font-family: "Montserrat", sans-serif;
     color: white;
+    scroll-behavior: smooth;
   }
   
   body {
