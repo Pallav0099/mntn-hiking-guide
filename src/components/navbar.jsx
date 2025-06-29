@@ -91,7 +91,7 @@ const Navbar = () => {
                         className="md:hidden absolute top-full left-0 right-0 bg-background/40"
                     >
                         <motion.div 
-                            className="flex flex-col space-y-2 pt-4 pb-6 px-4 text-shadow-lg text-shadow-black/30"
+                            className="flex flex-col space-y-2 pt-4 pb-6 px-4"
                             initial={{ y: -10 }}
                             animate={{ y: 0 }}
                             exit={{ y: -10 }}

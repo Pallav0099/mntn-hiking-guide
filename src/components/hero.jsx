@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <section className="w-full overflow-hidden py-24 md:py-48">
             <div className="relative z-10 flex items-center justify-center">
-                <div className="grid grid-row h-max">
+                <div className="grid grid-row h-max pl-5 md:pl-0">
                     <motion.div 
                         className="flex items-center gap-2 order-1"
                         initial={{ opacity: 0, y: 20 }}
