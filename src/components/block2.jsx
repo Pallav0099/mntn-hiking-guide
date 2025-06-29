@@ -1,14 +1,14 @@
-import Block1Img from "../assets/block1.png";
+import Block1Img from "../assets/block2.png";
 import { MoveRight } from "lucide-react";
 
-const Block1 = () => {
+const Block2 = () => {
     return (
         <>
-            <section id="block1" className="min-w-screen bg-fade-bottom overflow-visible pt-4 xl:pt-48">
+            <section id="block1" className="min-w-screen bg-background overflow-visible pt-8 xl:pt-18">
                 <div className="flex flex-col md:flex-row gap-6 md:gap-12 lg:gap-18 items-center justify-center">
-                    <div className="order-1 max-w-[80vw] md:max-w-[40vw]">
+                    <div className="order-1 md:order-2 max-w-[80vw] md:max-w-[40vw]">
                         <div className="absolute left-1 md:left-auto">
-                            <p className="text-9xl font-extrabold text-white/10">01</p>
+                            <p className="text-9xl font-extrabold text-white/10">02</p>
                         </div>
                         <div className="flex flex-col gap-4 justify-center pt-12 md:pl-10 xl:pl-18">
                             <div className="flex items-center gap-2 pt-6">
@@ -29,7 +29,7 @@ const Block1 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="order-2">
+                    <div className="order-2 md:order-1">
                         <img src={Block1Img} alt="Block1" className="w-[80vw] md:w-[40vw] xl:w-[30vw] max-h-[720px] object-cover md:pt-12" />
                     </div>
                 </div>
@@ -37,4 +37,4 @@ const Block1 = () => {
         </>
     );
 }
-export default Block1;
+export default Block2;
