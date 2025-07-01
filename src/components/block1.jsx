@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 const Block1 = () => {
     return (
         <>
-            <section id="block1" className="min-w-screen bg-fade-bottom overflow-visible pt-4 xl:pt-48 relative">
+            <section id="block1" className="max-w-screen bg-fade-bottom overflow-visible pt-4 xl:pt-48 relative">
                 <div className="flex flex-col md:flex-row gap-6 md:gap-12 lg:gap-18 items-center justify-center">
                     <div className="order-1 max-w-[80vw] md:max-w-[40vw]">
                         <motion.div
